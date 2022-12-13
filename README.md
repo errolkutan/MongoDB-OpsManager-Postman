@@ -39,7 +39,7 @@ TODO -- add screen capture of import steps
 ### Create an Environment 
 
 
-A Postman Environment is simply a mapping of key-value pairs whose keys are variables used in various API endpoints, speficially those used by the Ops Manager API Postman collection in this case. The following variables are required by an environment for this postman collection, but will be used by different endpoints:
+A Postman Environment is simply a mapping of key-value pairs whose keys are variables used in various API endpoints, speficially those used by the Ops Manager API Postman collection in this case. The following variables (case-sensitive) are required by an environment for this postman collection, but will be used by different endpoints:
 
 - url : The url of your ops manager instance 
 - apiUserName : the public API key to use for requests
@@ -58,4 +58,5 @@ A Postman Environment is simply a mapping of key-value pairs whose keys are vari
 - endDate : The end date in YYYY-MM-DDTHH:mm:SSZ format to use for log and metric extraction
 - agentApiKey : The Agent API key to use where needed
 
+Instructions for creating a Postman environment can be found [here](https://learning.postman.com/docs/sending-requests/managing-environments/#creating-environments). 
 
