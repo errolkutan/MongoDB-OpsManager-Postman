@@ -39,4 +39,23 @@ TODO -- add screen capture of import steps
 ### Create an Environment 
 
 
-TODO -- add list of environment variables to use
+A Postman Environment is simply a mapping of key-value pairs whose keys are variables used in various API endpoints, speficially those used by the Ops Manager API Postman collection in this case. The following variables are required by an environment for this postman collection, but will be used by different endpoints:
+
+- url : The url of your ops manager instance 
+- apiUserName : the public API key to use for requests
+- apiPass : the private API key (aka -- API secret) to use for requests
+- serverId : The id of servers to use for server-specirfic requests
+- hostname : The hostname to use for hostname-specific requests
+- requestId : The id of the requests to use for request-specific requests
+- alertId : The id of the alert to use for alert-specific requests
+- clusterId : The id of the cluster to use for cluster-specific requests
+- agentType : The type of the MongoDB Ops Manager agent to use for agent-specific requests 
+- hostId : The id of the host to use for host specific requests
+- groupName : The name of the Ops Manager group/project to use for group-specific requests
+- groupId : The id of the  Ops Manager group/project to use for group-specific requests
+- snapshotId : The id of the snapshot to use for snapshot-specific requests
+- startDate : The start date in YYYY-MM-DDTHH:mm:SSZ format to use for log and metric extraction
+- endDate : The end date in YYYY-MM-DDTHH:mm:SSZ format to use for log and metric extraction
+- agentApiKey : The Agent API key to use where needed
+
+
