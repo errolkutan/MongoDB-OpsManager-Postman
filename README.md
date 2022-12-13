@@ -33,7 +33,9 @@ Categories remaining
 
 ### Import Collection into Postman
 
-TODO -- add screen capture of import steps
+Two options for setup:
+1) Clone the repository locally and import manually via [these steps.](https://learning.postman.com/docs/getting-started/importing-and-exporting-data/#importing-postman-data)
+2) Directly import the repository from github into PostMan via [these steps.](https://learning.postman.com/docs/getting-started/importing-and-exporting-data/#importing-from-github-repositories)  
 
 
 ### Create an Environment 
